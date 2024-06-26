@@ -54,6 +54,11 @@
     background-color:blanchedalmond;
 }
 
+.calButton:hover {
+    -webkit-transform: scale(1.05);
+    background-image: linear-gradient(rgb(0 0 0/15%) 0 0);
+}
+
 .jumbo {
     width: 150px;
     background-color: rgb(224, 164, 73);
@@ -69,3 +74,4 @@
 .oppButton {
     background-color: rgb(250, 211, 152);;
 }
+

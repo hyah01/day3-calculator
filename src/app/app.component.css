@@ -15,13 +15,16 @@
 }
 
 .formula {
-    min-height: 20px;
-    line-height: 20px;
+    min-height: 25px;
+    line-height: 25px;
     font-size: 20px;
-    color: blanchedalmond;
+    color: orange;
     text-align: right;
     overflow-wrap: break-word;
     margin-top: 5px;
+    background-color: beige;
+    border-radius: 5px;
+    padding-right: 5px;
 }
 
 .display {
@@ -29,6 +32,7 @@
     color: orange;
     text-align: right;
     line-height: 35px;
+    height: 70px;
     overflow-wrap: break-word;
     background-color: beige;
     border-radius: 10px;
@@ -39,6 +43,8 @@
 .evaluate {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    top: 35px;
 }
 
 .calButton {

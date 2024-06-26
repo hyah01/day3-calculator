@@ -1,0 +1,65 @@
+.body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: #CAE9F5;
+}
+.calculator {
+    border: 2px solid black;
+    padding: 5px; 
+    background: black;
+    width: 314px; 
+    position: relative;
+    border-radius: 10px;
+}
+
+.formula {
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: blanchedalmond;
+    text-align: right;
+    overflow-wrap: break-word;
+    margin-top: 5px;
+}
+
+.display {
+    font-size: 30px;
+    color: orange;
+    text-align: right;
+    line-height: 35px;
+    overflow-wrap: break-word;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+.evaluate {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calButton {
+    height: 60px;
+    width: 75px;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+}
+
+.jumbo {
+    width: 150px;
+    background-color: rgb(224, 164, 73);
+}
+
+.tall {
+    height: 120px;
+    position: relative;
+    bottom: 60px;
+    background-color: rgb(245, 188, 102);
+}
+
+.oppButton {
+    background-color: rgb(250, 211, 152);;
+}
